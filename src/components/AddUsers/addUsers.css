@@ -1,0 +1,19 @@
+form {
+    margin-bottom: 24px;
+}
+.form-check {
+    padding-top: 25px;
+}
+
+#userForm form div:nth-child(5) div:nth-child(-n+3) {
+    flex: 1.5; 
+    max-width: 100%;
+}
+
+#userForm form div:nth-child(5) div:nth-child(1) {
+    flex: 3.2; 
+}
+
+#userForm form div:nth-last-child(-n+2) div {
+    max-width: 50%;
+}

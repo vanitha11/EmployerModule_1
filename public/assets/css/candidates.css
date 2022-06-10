@@ -1,0 +1,66 @@
+﻿:root {
+    /* --primary-bg-color: #f5a658 !important;#6c5ffc;*/
+}
+
+
+.fe-edit:before {
+    /* content: "\e957"; */
+    font-size: 20px !important;
+}
+.btn-danger {
+    background: #cfcbcb !important;
+    border-color: #cfcbcb !important;
+}
+
+.btn-secondary {
+    background: #cfcbcb !important;
+    border-color: #cfcbcb !important;
+}
+.icon-plus:before {
+    content: "\e095";
+    /*font-size: 35px;*/
+}
+.fe-trash-2:before {
+    content: "\e9e2";
+    font-size: 20px;
+}
+.custom-checkbox .custom-control-label::before {
+    border-radius: 3px;
+}
+
+.custom-control-label:before {
+    border: 3px solid grey;
+    background-color: white;
+    background-size: 0.5rem;
+}
+.btn-group me-2 sw-btn-group {
+  margin:-35px 0 0 0 0;
+}
+hr.new4 {
+    border: 0rem solid red;
+    background-color: #adb5bd;
+    width: 108%;
+    margin-left: -4%;
+}
+hr.new5 {
+    border: 0rem solid red;
+    background-color: #adb5bd;
+    width: 106%;
+    margin-left: -3%;
+}
+.icon-plus:before {
+    content: "\e095";
+    /* font-size: 35px; */
+}
+
+
+hr.Line {
+    border: 0rem solid red;
+    background-color: #adb5bd;
+    width: 104%;
+    margin-left: -27px;
+}
+.logingerrormgs
+{
+    width:260px;
+}

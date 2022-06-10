@@ -1,0 +1,14 @@
+.Wrapper {
+    font-weight: bold;
+}
+
+.LeftWrapper {
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Entries {
+    margin-top: 5px;
+    margin-left: 10px !important;
+}

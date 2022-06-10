@@ -1,0 +1,81 @@
+.selectWidth {
+    width: 49%;
+}
+
+.emrsystem{
+    display: flex;
+}
+
+.firstDivision {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px 0.5rem 0;
+    width: 50%;
+}
+
+.firstDivision input {
+    height: 35px;
+    width: 100%;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+  }
+  
+.firstDivision input:focus {
+    border: 1px solid rgb(0, 208, 255);
+  }
+
+button {
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.firstDivision button {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    color: var(--primary-bg-color);
+    border: none;   
+    gap: 0.5rem;
+}
+
+.secondDivision button {
+    color: var(--primary-bg-color);
+    border: none;
+}
+
+.formButton button:not(:last-child){
+    margin-right: 10px;
+}
+
+.contact {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: grey;
+}
+
+/* .active {
+    color: var(--primary-bg-color);
+    border: 1px solid #e9edf4;
+    border-bottom-color: transparent;
+} */
+
+.headerMargin {
+    margin-bottom: 0;
+}
+
+.locationName {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.locationName-margin {
+    margin-bottom: 24px;
+}

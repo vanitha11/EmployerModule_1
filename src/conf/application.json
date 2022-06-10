@@ -1,0 +1,281 @@
+{
+  "development": {
+    "baseUrl": "https://qacaliberis.com/empapi/api"
+  },
+  "qa": {
+    "baseUrl": "https://qacaliberis.com/OTDevApiV1/api"
+  },
+  "production": {
+    "baseUrl": "https://qacaliberis.com/OTDevApiV1/api"
+  },
+  "validations": {
+    "login": {
+      "email": {
+        "required": true,
+        "min": 10,
+        "max": 100,
+        "pattern": "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
+      },
+      "password": {
+        "required": true,
+        "min": 8,
+        "max": 16
+      }
+    },
+    "signUp": {
+      "firstName": {
+        "required": true,
+        "min": 2,
+        "max": 30,
+        "pattern": "^[a-zA-Z0-9]+$"
+      },
+      "lastName": {
+        "required": true,
+        "min": 2,
+        "max": 30,
+        "pattern": "^[a-zA-Z0-9]+$"
+      },
+      "email": {
+        "required": true,
+        "min": 10,
+        "max": 100,
+        "pattern": "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
+      },
+      "password": {
+        "required": true,
+        "min": 0,
+        "max": 16,
+        "pattern": "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])(?=.{8,})",
+        "message": "Password must have 8 characters including 1 uppercase, 1 numeric and 1 special character"
+      },
+      "confirmPassword": {
+        "required": true,
+        "min": 0,
+        "max": 16,
+        "pattern": "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])(?=.{8,})",
+        "message": "Password must have 8 characters including 1 uppercase, 1 numeric and 1 special character"
+      },
+      "zipCode": {
+        "required": true,
+        "min": 5,
+        "max": 6,
+        "pattern": "^[0-9]+$"
+      },
+      "terms": {
+        "required": true
+      }
+    },
+    "forgotPassword": {
+      "email": {
+        "required": true,
+        "min": 10,
+        "max": 100,
+        "pattern": "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
+      }
+    },
+    "personalInfo": {
+      "firstName": {
+        "required": true,
+        "min": 2,
+        "max": 30,
+        "pattern": "^[a-zA-Z0-9\\s]+$"
+      },
+      "lastName": {
+        "required": true,
+        "min": 2,
+        "max": 30,
+        "pattern": "^[a-zA-Z0-9\\s]+$"
+      },
+      "email": {
+        "required": true,
+        "min": 10,
+        "max": 100,
+        "pattern": "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
+      },
+      "zipcode": {
+        "required": true,
+        "min": 5,
+        "max": 6,
+        "pattern": "^[0-9]+$"
+      },
+      "streetAddress": {
+        "required": true,
+        "min": 10,
+        "max": 50,
+        "pattern": "^[a-zA-Z0-9.\\s]+$"
+      },
+      "city": {
+        "required": true,
+        "min": 2,
+        "max": 30,
+        "pattern": "^[a-zA-Z0-9\\s]+$"
+      },
+      "stateName": {
+        "required": true,
+        "min": 2,
+        "max": 30,
+        "pattern": "^[a-zA-Z0-9\\s]+$"
+      },
+      "cellPhoneNumber": {
+        "required": true,
+        "min": 10,
+        "max": 15,
+        "pattern": "^[0-9-]+$"
+      },
+      "homePhoneNumber": {
+        "required": false,
+        "min": 10,
+        "max": 15,
+        "pattern": "^[0-9-]+$"
+      },
+      "alternatePhoneNumber": {
+        "required": false,
+        "min": 10,
+        "max": 15,
+        "pattern": "^[0-9-]+$"
+      },
+      "spokenLanguagesList": {
+        "required": true
+      }
+    },
+    "emergencyContact": {
+      "firstName": {
+        "required": true,
+        "min": 2,
+        "max": 30,
+        "pattern": "^[a-zA-Z0-9\\s]+$"
+      },
+      "lastName": {
+        "required": true,
+        "min": 2,
+        "max": 30,
+        "pattern": "^[a-zA-Z0-9\\s]+$"
+      },
+      "relationship": {
+        "required": true
+      },
+      "phoneNumber": {
+        "required": true,
+        "min": 10,
+        "max": 15,
+        "pattern": "^[0-9-]+$"
+      }
+    },
+    "references": {
+      "firstName": {
+        "required": true,
+        "min": 2,
+        "max": 30,
+        "pattern": "^[a-zA-Z0-9\\s]+$"
+      },
+      "lastName": {
+        "required": true,
+        "min": 2,
+        "max": 30,
+        "pattern": "^[a-zA-Z0-9\\s]+$"
+      },
+      "phoneNumber": {
+        "required": true,
+        "min": 10,
+        "max": 15,
+        "pattern": "^[0-9-]+$"
+      }
+    },
+    "preferences": {
+      "preferredShifts": {
+        "required": true
+      },
+      "travelDistance": {
+        "required": true
+      },
+      "vaccination": {
+        "required": true
+      }
+    },
+    "workHistory": {
+      "employer": {
+        "required": true,
+        "min": 2,
+        "max": 30,
+        "pattern": "^[a-zA-Z0-9\\s]+$"
+      },
+      "fromMonth": {
+        "required": true
+      },
+      "fromYear": {
+        "required": true
+      },
+      "toMonth": {
+        "required": true
+      },
+      "toYear": {
+        "required": true
+      }
+    },
+    "education": {
+      "name": {
+        "required": true,
+        "min": 2,
+        "max": 30,
+        "pattern": "^[a-zA-Z0-9\\s]+$"
+      },
+      "fromMonth": {
+        "required": true
+      },
+      "fromYear": {
+        "required": true
+      },
+      "toMonth": {
+        "required": true
+      },
+      "toYear": {
+        "required": true
+      }
+    },
+    "resetPassword": {
+      "newPassword": {
+        "required": true,
+        "min": 8,
+        "max": 16,
+        "pattern": "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])(?=.{8,})",
+        "message": "Password must have 8 characters including 1 uppercase, 1 numeric and 1 special character"
+      },
+      "confirmNewPassword": {
+        "required": true,
+        "min": 8,
+        "max": 16
+      }
+    },
+    "updatePassword": {
+      "currentPassword": {
+        "required": true,
+        "min": 8,
+        "max": 16,
+        "pattern": "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])(?=.{8,})",
+        "message": "Password must have 8 characters including 1 uppercase, 1 numeric and 1 special character"
+      },
+      "newPassword": {
+        "required": true,
+        "min": 8,
+        "max": 16,
+        "pattern": "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])(?=.{8,})",
+        "message": "Password must have 8 characters including 1 uppercase, 1 numeric and 1 special character"
+      },
+      "confirmPassword": {
+        "required": true,
+        "min": 8,
+        "max": 16,
+        "pattern": "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])(?=.{8,})",
+        "message": "Password must have 8 characters including 1 uppercase, 1 numeric and 1 special character"
+      }
+    },
+    "updateEmail": {
+      "email": {
+        "required": true,
+        "min": 10,
+        "max": 100,
+        "pattern": "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
+      }
+    }
+  }
+}

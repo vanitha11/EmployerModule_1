@@ -1,0 +1,31 @@
+.rail {
+    left: 0px;
+    bottom: 0px;
+}
+
+.railthumb {
+    left: 0px;
+    width: 0px;
+}
+
+.railright {
+    top: 0px;
+    right: 0px;
+}
+
+.railrightthumb {
+    top: 0px;
+    height: 0px;
+}
+
+.sticky-margin {
+    margin-bottom: -74px;
+}
+
+.side-menu-margin {
+    margin-right: 0px;
+}
+
+.jump-padding {
+    padding-top: 74px;
+}

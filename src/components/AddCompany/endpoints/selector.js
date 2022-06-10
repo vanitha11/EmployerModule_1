@@ -1,0 +1,1 @@
+export const companySelector = state => state.addCompany;

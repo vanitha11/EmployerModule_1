@@ -1,0 +1,11 @@
+.form-control:disabled {
+    background-color: #e9ecef;
+}
+
+#companyForm form div:nth-last-child(-n+3) div {
+    max-width: 50%;
+}
+
+.formButton {
+    margin-top: 24px;
+}

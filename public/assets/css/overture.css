@@ -1,0 +1,62 @@
+﻿/*body {
+    background: none !important;
+    background-image: none !important;
+}*/
+.login-img{
+    background: none !important;
+    background-image:none !important;
+}
+html {
+    background: none !important;
+    background-image: none !important;
+}
+/*--------candidate panel----------*/
+.expanel-candidate {
+    border: 1px solid #e9edf4 !important;
+}
+
+    .expanel-candidate > .expanel-heading {
+        color: #fff !important;
+        background-color: #f5a658 !important;
+        border-color: #f5a658 !important;
+    }
+
+/*--------candidate panel ends----------*/
+
+
+/*--------employer panel----------*/
+.expanel-employer {
+    border: 1px solid #e9edf4 !important;
+}
+
+    .expanel-employer > .expanel-heading {
+        color: #fff !important;
+        background-color: #8bb988 !important;
+        border-color: #8bb988 !important;
+    }
+/*--------employer panel ends----------*/
+
+/*-----ot admin blue color: #6896d1  */
+
+
+/*-----ot admin chkbox start*/
+.custom-control-label {
+
+    border: 1px solid var(--primary06);   
+    background-size: 0.5rem;
+}
+/*-----ot admin chkbox End*/
+    /*-----ot  chkbox start*/
+    .custom-control-label:before {
+        border: 2px solid gray;
+        background-color: white;
+        background-size: 0.5rem;
+    }
+
+/*-----ot  chkbox end*/
+/*-----ot  email icon start*/
+.social i {
+    font-size: 12px !important;
+}
+
+/*-----ot  chkbox start*/

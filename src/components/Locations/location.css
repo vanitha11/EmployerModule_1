@@ -1,0 +1,19 @@
+button {
+    background: var(--primary-bg-color);
+    border-color: var(--primary-bg-color);
+    color:white
+}
+
+button disabled {
+    background-color: grey;
+}
+
+.newLocation {
+    text-align: right;
+}
+
+.errorMsg {
+    text-align: center;
+    font-size: 17px;
+    color: red;
+}

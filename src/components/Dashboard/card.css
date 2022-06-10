@@ -1,0 +1,10 @@
+.circular-progress {
+    margin-left: 33%;
+    width: 30%;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.circular-progress .chart-circle-value-3 {
+    top: 0px !important;
+}

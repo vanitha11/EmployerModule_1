@@ -1,0 +1,12 @@
+.modal-header .btn-close {
+    font-size: 1rem;
+}
+
+.modal-body label {
+    display: inline-block;
+    width: 115px;
+}
+
+.modal-body span {
+    margin-right: 10px;
+}

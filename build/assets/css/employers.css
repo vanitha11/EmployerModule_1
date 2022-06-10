@@ -1,0 +1,16 @@
+﻿:root {
+    --primary-bg-color: #8bb988 !important; /*#6c5ffc;*/
+}
+input-placeholder {
+    color: red;
+    opacity: .5;
+}
+.btn-success {
+    background: #8bb988 !important;
+    border-color: #8bb988 !important;
+}
+
+.btn-danger {
+    background: #cfcbcb !important;
+    border-color: #cfcbcb !important;
+}

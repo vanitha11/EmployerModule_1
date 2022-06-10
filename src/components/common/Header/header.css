@@ -1,0 +1,23 @@
+.users1 {
+    background: url('./images/1.jpg') center center;
+}
+
+.users15 {
+    background: url('./images/15.jpg') center center;
+}
+
+.users12 {
+    background: url('./images/12.jpg') center center;
+}
+
+.users4 {
+    background: url('./images/4.jpg') center center;
+}
+
+.jumps-prevent-padding {
+    padding-top: 74px;
+}
+
+.app-header-margin {
+    margin-bottom: -74px;
+}
